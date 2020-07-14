@@ -6,10 +6,9 @@ import pandas as pd
 
 def predict(data):
     """ get two colums from `df` and returns the predicted ouput as a column (pd.Series)
-    TODO: modify it
     """
     result = data['col1'] + data['col2']
-    return result
+    return result #returns sum of two columns
 
 
 def main(input_dir, output_dir):
